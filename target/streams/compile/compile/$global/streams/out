@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0mD:\livr\dlp-test\app\controllers\HomeController.java:82:1:  error: bad operand types for binary operator '*'[0m
+[0m[[0m[31merror[0m] [0m[0m            cache.set("image", new ImageIcon(getClass().getClassLoader().getResource("public/images/image.jpg")), 60 * ConfigFactory.load().getString("pathInSource"));[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                     ^  first type:  int[0m
+[0m[[0m[31merror[0m] [0m[0m  second type: String[0m
+[0m[[0m[31merror[0m] [0m[0m1 error[0m
