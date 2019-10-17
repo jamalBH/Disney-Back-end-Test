@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="scala-tool"
 		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, docs"
-		date="20191015234034"/>
+		date="20191016235743"/>
 	<dependencies>
 		<module organisation="org.scala-lang" name="scala-compiler">
 			<revision name="2.12.3" status="release" pubdate="20170725104529" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, optional, optional(default), master" position="0">
@@ -51,7 +51,7 @@
 				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\Sispanos\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.12.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.pom"/>
 				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, optional, master" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="2.12.3"/>
 				<artifacts>
-					<artifact name="scala-reflect" type="jar" ext="jar" status="successful" details="" size="3567871" time="90548" location="C:\Users\Sispanos\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.3.jar">
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3567871" time="0" location="C:\Users\Sispanos\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.3/scala-reflect-2.12.3.jar"/>
 					</artifact>
 				</artifacts>

@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:D:/livr/dlp-test/conf/routes
-// @DATE:Wed Oct 16 16:17:49 UTC 2019
+// @DATE:Wed Oct 16 21:45:27 UTC 2019
 
 package controllers;
 

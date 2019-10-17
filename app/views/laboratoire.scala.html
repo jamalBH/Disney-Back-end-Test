@@ -1,7 +1,15 @@
-@()
+@(task : String,pictures : List[String])
 
 @main("Disneyland Paris - Java Technical Test") {
-<h1>/ This is the image /</h1>
-
+@if(task == "task2") {
+<h1>/ This is the image of task 2/</h1>
 <img src=@routes.Assets.versioned("images/image.jpg") />
+} else {
+<h1>/ This is the image of task 3/</h1>
+@for(picture <- pictures) {
+@picture
+<img src=@routes.Assets.versioned(picture) />
+
+}
+}
 }

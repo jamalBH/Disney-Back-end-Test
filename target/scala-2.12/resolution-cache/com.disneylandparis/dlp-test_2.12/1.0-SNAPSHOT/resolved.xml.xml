@@ -4,7 +4,7 @@
 		module="dlp-test_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20191015234034"
+		publication="20191016235743"
 	>
 		<description>
 		dlp-test
@@ -52,5 +52,6 @@
 		<dependency org="com.typesafe.play" name="play-guice_2.12" rev="2.6.20" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-ehcache_2.12" rev="2.6.20" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-ahc-ws_2.12" rev="2.6.20" conf="compile->default(compile)"/>
+		<dependency org="com.google.code.gson" name="gson" rev="2.8.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

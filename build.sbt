@@ -10,5 +10,6 @@ scalaVersion := "2.12.3"
 libraryDependencies ++= Seq(
   guice,
   ehcache,
-  javaWs
+  javaWs,
+  "com.google.code.gson" % "gson" % "2.8.1"
 )
